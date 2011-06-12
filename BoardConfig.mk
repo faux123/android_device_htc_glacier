@@ -10,6 +10,7 @@ TARGET_BOOTLOADER_BOARD_NAME := glacier
 
 # Wifi related defines
 WIFI_DRIVER_FW_STA_PATH     := "/system/vendor/firmware/fw_bcm4329_5GHz.bin"
+WIFI_DRIVER_MODULE_ARG      := "firmware_path=/vendor/firmware/fw_bcm4329_5GHz.bin nvram_path=/proc/calibration"
 
 BOARD_USE_NEW_LIBRIL_HTC := true
 
