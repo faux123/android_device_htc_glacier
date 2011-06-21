@@ -13,6 +13,8 @@ WIFI_DRIVER_FW_STA_PATH     := "/system/vendor/firmware/fw_bcm4329_5GHz.bin"
 WIFI_DRIVER_MODULE_ARG      := "firmware_path=/vendor/firmware/fw_bcm4329_5GHz.bin nvram_path=/proc/calibration"
 
 BOARD_USE_NEW_LIBRIL_HTC := true
+BOARD_HAVE_HTC_FFC := true
+BOARD_USE_REVERSE_FFC := true
 
 BOARD_KERNEL_CMDLINE := no_console_suspend=1
 BOARD_KERNEL_BASE := 0x04000000
